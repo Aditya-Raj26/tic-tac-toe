@@ -1,0 +1,44 @@
+# Tic Tac Toe Game in C#
+This is a console application that allows two players to play the classic game of Tic Tac Toe.
+
+## Getting Started
+
+### Prerequisites
+- .NET Framework or .NET Core runtime installed
+
+### Installation
+1. Clone the repository:
+   ```
+   git clone https://github.com/Aditya-Raj26/tic-tac-toe.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd TicTacToe
+   ```
+3. Build the application:
+   ```
+   dotnet build TicTacToe
+   ```
+4. Run the application:
+   ```
+   dotnet run --project TicTacToe
+
+## How to Play
+- Clone or download the repository to your local machine.
+- Open the solution in Visual Studio or your preferred IDE.
+- Build and run the application.
+- The game will display an empty 3x3 board.
+- The first player will be 'X', and the second player will be 'O'.
+- Each player takes turns entering their move.
+- The game will check if the move is valid and update the board accordingly.
+- The game will check if either player has won or if it is a draw.
+- The game will continue until a player wins or there is a draw.
+
+## Game Rules
+- Players take turns placing their mark ('X' or 'O') on an empty square on the 3x3 grid.
+- The first player to get three of their marks in a row (horizontally, vertically, or diagonally) wins the game.
+- If all 9 squares are full and no player has won, the game is a draw.
+
+## Technologies Used
+- C#
+- .NET Framework
